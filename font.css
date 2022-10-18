@@ -1,0 +1,17 @@
+@font-face{
+	font-family:Roboto-Bold;
+	src: url('font/Roboto-Bold.ttf');
+}
+
+@font-face{
+	font-family:Roboto-Light;
+	src: url('font/Roboto-Light.ttf');
+}
+@font-face{
+	font-family:Roboto-Regular;
+	src: url('font/Roboto-Regular.ttf');
+}
+@font-face{
+	font-family:Roboto-Black;
+	src: url('font/Roboto-Black.ttf');
+}
