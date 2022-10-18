@@ -467,7 +467,7 @@ img.qc2{
 	100%{transform:translateY(-10vh) scale(1) ;}
 }
 .nen{position: fixed;
-z-index: -2;}
+z-index: -2;display: none;}
 
 
 
@@ -669,6 +669,7 @@ z-index: -2;}
 	.qc{margin-left: 0;width: 100%;}
 	.qc a{width: 43%;}
 	img.qc2{height: 200px;object-fit: cover;}
+	.nen{display: block;}
 }
 /* tiếp theo*/
 
