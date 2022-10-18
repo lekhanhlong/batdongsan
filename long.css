@@ -597,6 +597,7 @@ z-index: -2;display: none;}
 	.datetime{width: 180px;padding: 0;}
 	.date{font-size: 12px;}
 	.time{font-size: 12px;}
+	.nen{display: block;}
 
 }
 
@@ -618,6 +619,7 @@ z-index: -2;display: none;}
 	.datetime{width: 180px;padding: 0;}
 	.date{font-size: 12px;}
 	.time{font-size: 12px;}
+	.nen{display: block;}
 }
 /* width lớn thứ 2*/
 @media screen and (max-width: 570px){
