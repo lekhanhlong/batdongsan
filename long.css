@@ -581,6 +581,8 @@ z-index: -2;display: none;}
 
 /* With lớn*/
 @media screen and (max-width: 940px){
+	body{background-image: none;
+	background:#0c192c ;}
 	.lienhe{top: 1050px;}
 	#trai{height: 1400px;}
 	#trai img{width: 200px;height: 200px;object-fit: cover;}
@@ -602,6 +604,8 @@ z-index: -2;display: none;}
 
 /* width lớn */
 @media screen and (max-width: 850px){
+	body{background-image: none;
+	background:#0c192c ;}
 	h1.gioithieu1{font-size: 28px;}
 	#menu1{top: 88%;left: 18%;}
 	.lienhe{top: 1060px;}
