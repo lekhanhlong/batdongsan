@@ -82,7 +82,7 @@ ul li:hover ion-icon{
 }
 ul li span{position: absolute;}
 ul li .title{
-	color: #777;
+	color: #ff512f;
 	font-size: 30px;
 	transform: scale(0);
 	transition: 0.5s;
@@ -93,7 +93,7 @@ ul li:hover .title{
 	transition-delay: 0.25s;
 }
 ul li a{text-decoration: none;
-color: #777}
+color: #ff512f}
 /*li #tha{position: relative;display: inline-block;}
 #tha1{position: absolute;
 top: 60px;display: none;z-index: 50;padding: 10px;}
@@ -138,8 +138,8 @@ box-shadow: 0 0 10px #ff9966,
 			0 0 50px #ff9966,
 			0 0 70px #ff9966;
 			font-size: 25px;}
-#tha11 #tp{color: #777;font-size: 25px;}
-#tha12 #t{color: #777;font-size: 25px;}
+#tha11 #tp{color: #ff512f;font-size: 25px;}
+#tha12 #t{color: #ff512f;font-size: 25px;}
 #tha1:hover #tha12{
 	background: linear-gradient(45deg,#ff9966,#ff5e62);
 box-shadow: 0 0 10px #ff9966,
