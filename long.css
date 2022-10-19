@@ -200,7 +200,7 @@ h1.gioithieu1{position: relative;
 -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
 outline: none;animation: sang 5s linear infinite;
 text-align: center;
-font-size: 37px;
+font-size: 20px;
 
 }
 @keyframes sang{
@@ -219,8 +219,8 @@ font-size: 37px;
 
     }
 }
-.gioithieu1 img{object-fit: contain;width: 50px;
-height: 50px;
+.gioithieu1 img{object-fit: contain;width: 30px;
+height: 30px;
 box-shadow: 0 0 10px #FFFF66,
 			0 0 20px #FFFF66,
 			0 0 50px #FFFF66,
@@ -283,7 +283,7 @@ outline: none;animation: sang1 5s linear infinite;
     	}
     	@keyframes phai{
     		0%{right: -205px;}
-    		100%{right: -55px;}
+    		100%{right: -49px;}
     	}
  #phai img{width: 150px;
  	height: 100px;
