@@ -598,6 +598,43 @@ z-index: -2;display: none;}
 	.date{font-size: 12px;}
 	.time{font-size: 12px;}
 	.nen{display: block;}
+	/* Hover thành focus trên điện thoại*/
+
+ul li:focus .title{
+	transform: scale(1);
+	transition-delay: 0.25s;
+}
+#tha1:focus #tha11{
+	background: linear-gradient(65deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#tha1:focus #tha12{
+	background: linear-gradient(45deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#menu:focus a{
+background: linear-gradient(45deg,#ffa9c6,#f434e2);
+box-shadow: 0 0 10px #ffa9c6,
+			0 0 30px #ffa9c6,
+			0 0 50px #ffa9c6,
+			0 0 70px #ffa9c6;
+			}
+#menu1:focus a{
+background: linear-gradient(45deg,#80ff72,#7ee8fa);
+box-shadow: 0 0 10px #80ff72,
+			0 0 30px #80ff72,
+			0 0 50px #80ff72,
+			0 0 70px #80ff72;
+			}
+#tha:hover #tha1{display:block;}
+#tha #tha1 #tha11:focus #menu{display: block;}
+#tha #tha1 #tha12:focus #menu1{display: block;}
 
 }
 
@@ -676,6 +713,45 @@ z-index: -2;display: none;}
 	.qc a{width: 43%;}
 	img.qc2{height: 200px;object-fit: cover;}
 	.nen{display: block;}
+	
+	/* Hover thành focus trên điện thoại*/
+
+ul li:focus .title{
+	transform: scale(1);
+	transition-delay: 0.25s;
+}
+#tha1:focus #tha11{
+	background: linear-gradient(65deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#tha1:focus #tha12{
+	background: linear-gradient(45deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#menu:focus a{
+background: linear-gradient(45deg,#ffa9c6,#f434e2);
+box-shadow: 0 0 10px #ffa9c6,
+			0 0 30px #ffa9c6,
+			0 0 50px #ffa9c6,
+			0 0 70px #ffa9c6;
+			}
+#menu1:focus a{
+background: linear-gradient(45deg,#80ff72,#7ee8fa);
+box-shadow: 0 0 10px #80ff72,
+			0 0 30px #80ff72,
+			0 0 50px #80ff72,
+			0 0 70px #80ff72;
+			}
+#tha:hover #tha1{display:block;}
+#tha #tha1 #tha11:focus #menu{display: block;}
+#tha #tha1 #tha12:focus #menu1{display: block;}
+	
 }
 /* tiếp theo*/
 
@@ -684,11 +760,11 @@ z-index: -2;display: none;}
 	background:#0c192c ;}
 
 	ul li{
-		width: 30px;
-		height: 30px;
+		width: 40px;
+		height: 40px;
 		border-radius: 50px;
 	}
-	ul li ion-icon{font-size: 15px;}
+	
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 11px;}
 	#tha1:hover #tha11{font-size: 15px;}
@@ -737,6 +813,44 @@ z-index: -2;display: none;}
 	.datetime{width: 120px;padding: 0;}
 	.date{font-size: 6px;}
 	.time{font-size: 6px;}
+	
+	/* Hover thành focus trên điện thoại*/
+
+ul li:focus .title{
+	transform: scale(1);
+	transition-delay: 0.25s;
+}
+#tha1:focus #tha11{
+	background: linear-gradient(65deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#tha1:focus #tha12{
+	background: linear-gradient(45deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#menu:focus a{
+background: linear-gradient(45deg,#ffa9c6,#f434e2);
+box-shadow: 0 0 10px #ffa9c6,
+			0 0 30px #ffa9c6,
+			0 0 50px #ffa9c6,
+			0 0 70px #ffa9c6;
+			}
+#menu1:focus a{
+background: linear-gradient(45deg,#80ff72,#7ee8fa);
+box-shadow: 0 0 10px #80ff72,
+			0 0 30px #80ff72,
+			0 0 50px #80ff72,
+			0 0 70px #80ff72;
+			}
+#tha:hover #tha1{display:block;}
+#tha #tha1 #tha11:focus #menu{display: block;}
+#tha #tha1 #tha12:focus #menu1{display: block;}
 }
 /* tiếp theo*/
 @media(max-width: 400px){
@@ -744,11 +858,11 @@ z-index: -2;display: none;}
 	background:#0c192c ;}
 
 	ul li{
-		width: 30px;
-		height: 30px;
+		width: 40px;
+		height: 40px;
 		border-radius: 50px;
 	}
-	ul li ion-icon{font-size: 15px;}
+	
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 10px;}
 	#tha1:hover #tha11{font-size: 15px;}
@@ -797,6 +911,44 @@ z-index: -2;display: none;}
 	.datetime{width: 120px;padding: 0;}
 	.date{font-size: 6px;}
 	.time{font-size: 6px;}
+	
+	/* Hover thành focus trên điện thoại*/
+
+ul li:focus .title{
+	transform: scale(1);
+	transition-delay: 0.25s;
+}
+#tha1:focus #tha11{
+	background: linear-gradient(65deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#tha1:focus #tha12{
+	background: linear-gradient(45deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#menu:focus a{
+background: linear-gradient(45deg,#ffa9c6,#f434e2);
+box-shadow: 0 0 10px #ffa9c6,
+			0 0 30px #ffa9c6,
+			0 0 50px #ffa9c6,
+			0 0 70px #ffa9c6;
+			}
+#menu1:focus a{
+background: linear-gradient(45deg,#80ff72,#7ee8fa);
+box-shadow: 0 0 10px #80ff72,
+			0 0 30px #80ff72,
+			0 0 50px #80ff72,
+			0 0 70px #80ff72;
+			}
+#tha:hover #tha1{display:block;}
+#tha #tha1 #tha11:focus #menu{display: block;}
+#tha #tha1 #tha12:focus #menu1{display: block;}
 
 }
 /* tiếp theo*/
@@ -813,5 +965,43 @@ z-index: -2;display: none;}
 		.container .card .content p{font-size: 12px;}
 		.container .card .content h3 {font-size: 17px;}
 		#cuoi1{font-size: 10px;}
+	
+	/* Hover thành focus trên điện thoại*/
+
+ul li:focus .title{
+	transform: scale(1);
+	transition-delay: 0.25s;
+}
+#tha1:focus #tha11{
+	background: linear-gradient(65deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#tha1:focus #tha12{
+	background: linear-gradient(45deg,#ff9966,#ff5e62);
+box-shadow: 0 0 10px #ff9966,
+			0 0 30px #ff9966,
+			0 0 50px #ff9966,
+			0 0 70px #ff9966;
+			}
+#menu:focus a{
+background: linear-gradient(45deg,#ffa9c6,#f434e2);
+box-shadow: 0 0 10px #ffa9c6,
+			0 0 30px #ffa9c6,
+			0 0 50px #ffa9c6,
+			0 0 70px #ffa9c6;
+			}
+#menu1:focus a{
+background: linear-gradient(45deg,#80ff72,#7ee8fa);
+box-shadow: 0 0 10px #80ff72,
+			0 0 30px #80ff72,
+			0 0 50px #80ff72,
+			0 0 70px #80ff72;
+			}
+#tha:hover #tha1{display:block;}
+#tha #tha1 #tha11:focus #menu{display: block;}
+#tha #tha1 #tha12:focus #menu1{display: block;}
 
 }
