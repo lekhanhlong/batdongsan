@@ -684,10 +684,11 @@ z-index: -2;display: none;}
 	background:#0c192c ;}
 
 	ul li{
-		width: 50px;
-		height: 50px;
+		width: 30px;
+		height: 30px;
 		border-radius: 50px;
 	}
+	ul li ion-icon{font-size: 15px;}
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 11px;}
 	#tha1:hover #tha11{font-size: 15px;}
@@ -743,10 +744,11 @@ z-index: -2;display: none;}
 	background:#0c192c ;}
 
 	ul li{
-		width: 50px;
-		height: 50px;
+		width: 30px;
+		height: 30px;
 		border-radius: 50px;
 	}
+	ul li ion-icon{font-size: 15px;}
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 10px;}
 	#tha1:hover #tha11{font-size: 15px;}
