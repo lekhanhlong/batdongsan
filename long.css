@@ -634,6 +634,7 @@ z-index: -2;display: none;}
 	}
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 11px;}
+	#tha1{top: 50px}
 	#tha1:hover #tha11{font-size: 15px;}
 	#tha11{
 		margin-top: -15px;
@@ -695,6 +696,7 @@ z-index: -2;display: none;}
 	
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 11px;}
+	#tha1{top: 50px}
 	#tha1:hover #tha11{font-size: 15px;}
 	#tha11{
 		margin-top: -15px;
@@ -757,6 +759,7 @@ z-index: -2;display: none;}
 	
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 10px;}
+	#tha1{top: 50px}
 	#tha1:hover #tha11{font-size: 15px;}
 	#tha11{
 		margin-top: -15px;
