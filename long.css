@@ -82,7 +82,7 @@ ul li:hover ion-icon{
 }
 ul li span{position: absolute;}
 ul li .title{
-	color: #777;
+	color: #ff512f;
 	font-size: 30px;
 	transform: scale(0);
 	transition: 0.5s;
@@ -93,7 +93,7 @@ ul li:hover .title{
 	transition-delay: 0.25s;
 }
 ul li a{text-decoration: none;
-color: #777}
+color: #ff512f}
 /*li #tha{position: relative;display: inline-block;}
 #tha1{position: absolute;
 top: 60px;display: none;z-index: 50;padding: 10px;}
@@ -138,8 +138,8 @@ box-shadow: 0 0 10px #ff9966,
 			0 0 50px #ff9966,
 			0 0 70px #ff9966;
 			font-size: 25px;}
-#tha11 #tp{color: #777;font-size: 25px;}
-#tha12 #t{color: #777;font-size: 25px;}
+#tha11 #tp{color: #ff512f;font-size: 25px;}
+#tha12 #t{color: #ff512f;font-size: 25px;}
 #tha1:hover #tha12{
 	background: linear-gradient(45deg,#ff9966,#ff5e62);
 box-shadow: 0 0 10px #ff9966,
@@ -200,7 +200,7 @@ h1.gioithieu1{position: relative;
 -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
 outline: none;animation: sang 5s linear infinite;
 text-align: center;
-font-size: 37px;
+font-size: 20px;
 
 }
 @keyframes sang{
@@ -219,8 +219,8 @@ font-size: 37px;
 
     }
 }
-.gioithieu1 img{object-fit: contain;width: 50px;
-height: 50px;
+.gioithieu1 img{object-fit: contain;width: 30px;
+height: 30px;
 box-shadow: 0 0 10px #FFFF66,
 			0 0 20px #FFFF66,
 			0 0 50px #FFFF66,
@@ -283,7 +283,7 @@ outline: none;animation: sang1 5s linear infinite;
     	}
     	@keyframes phai{
     		0%{right: -205px;}
-    		100%{right: -55px;}
+    		100%{right: -49px;}
     	}
  #phai img{width: 150px;
  	height: 100px;
@@ -467,7 +467,7 @@ img.qc2{
 	100%{transform:translateY(-10vh) scale(1) ;}
 }
 .nen{position: fixed;
-z-index: -2;}
+z-index: -2;display: none;}
 
 
 
@@ -581,6 +581,8 @@ z-index: -2;}
 
 /* With lớn*/
 @media screen and (max-width: 940px){
+	body{background-image: none;
+	background:#0c192c ;}
 	.lienhe{top: 1050px;}
 	#trai{height: 1400px;}
 	#trai img{width: 200px;height: 200px;object-fit: cover;}
@@ -595,6 +597,8 @@ z-index: -2;}
 	.datetime{width: 180px;padding: 0;}
 	.date{font-size: 12px;}
 	.time{font-size: 12px;}
+	.nen{display: block;}
+	
 
 }
 
@@ -602,6 +606,8 @@ z-index: -2;}
 
 /* width lớn */
 @media screen and (max-width: 850px){
+	body{background-image: none;
+	background:#0c192c ;}
 	h1.gioithieu1{font-size: 28px;}
 	#menu1{top: 88%;left: 18%;}
 	.lienhe{top: 1060px;}
@@ -614,6 +620,7 @@ z-index: -2;}
 	.datetime{width: 180px;padding: 0;}
 	.date{font-size: 12px;}
 	.time{font-size: 12px;}
+	.nen{display: block;}
 }
 /* width lớn thứ 2*/
 @media screen and (max-width: 570px){
@@ -627,6 +634,7 @@ z-index: -2;}
 	}
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 11px;}
+	#tha1{top: 50px}
 	#tha1:hover #tha11{font-size: 15px;}
 	#tha11{
 		margin-top: -15px;
@@ -669,6 +677,10 @@ z-index: -2;}
 	.qc{margin-left: 0;width: 100%;}
 	.qc a{width: 43%;}
 	img.qc2{height: 200px;object-fit: cover;}
+	.nen{display: block;}
+	
+	
+	
 }
 /* tiếp theo*/
 
@@ -677,12 +689,14 @@ z-index: -2;}
 	background:#0c192c ;}
 
 	ul li{
-		width: 50px;
-		height: 50px;
+		width: 40px;
+		height: 40px;
 		border-radius: 50px;
 	}
+	
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 11px;}
+	#tha1{top: 50px}
 	#tha1:hover #tha11{font-size: 15px;}
 	#tha11{
 		margin-top: -15px;
@@ -729,6 +743,8 @@ z-index: -2;}
 	.datetime{width: 120px;padding: 0;}
 	.date{font-size: 6px;}
 	.time{font-size: 6px;}
+	
+	
 }
 /* tiếp theo*/
 @media(max-width: 400px){
@@ -736,12 +752,14 @@ z-index: -2;}
 	background:#0c192c ;}
 
 	ul li{
-		width: 50px;
-		height: 50px;
+		width: 40px;
+		height: 40px;
 		border-radius: 50px;
 	}
+	
 	ul li:hover{width: 110px;}
 	ul li .title{font-size: 10px;}
+	#tha1{top: 50px}
 	#tha1:hover #tha11{font-size: 15px;}
 	#tha11{
 		margin-top: -15px;
@@ -788,7 +806,8 @@ z-index: -2;}
 	.datetime{width: 120px;padding: 0;}
 	.date{font-size: 6px;}
 	.time{font-size: 6px;}
-
+	
+	
 }
 /* tiếp theo*/
 @media screen and (max-width: 300px){
@@ -804,5 +823,6 @@ z-index: -2;}
 		.container .card .content p{font-size: 12px;}
 		.container .card .content h3 {font-size: 17px;}
 		#cuoi1{font-size: 10px;}
-
 }
+	
+	
