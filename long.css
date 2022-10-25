@@ -541,9 +541,9 @@ z-index: -2;display: none;}
 	.nen{display: block;}
 	ul li{width: 120px;}
 	ul li ion-icon{transform: translateX(-30px);}
-	ul li .title{font-size: 9px;}
+	ul li .title{font-size: 15px;}
 	ul li:hover .title {
-	font-size: 9px;
+	font-size: 15px;
 	
 }
 	#top{top: 10px;}
@@ -571,9 +571,9 @@ z-index: -2;display: none;}
 	.time{font-size: 12px;}
 	.nen{display: block;}
 	ul li{width: 80px;height: 20px;}
-	ul li .title{font-size: 7px;transform: translateX(10px);}
+	ul li .title{font-size: 11px;transform: translateX(10px);}
 	ul li:hover .title {
-	font-size: 7px;}
+	font-size: 11px;}
 	#top{top: 15px;}
 	
 
@@ -599,9 +599,9 @@ z-index: -2;display: none;}
 	.nen{display: block;}
 	ul{gap: 5px}
 	ul li{width: 75px;height: 20px;}
-	ul li .title{font-size: 6px;transform: translateX(7px);}
+	ul li .title{font-size: 10px;transform: translateX(7px);}
 	ul li:hover .title {
-	font-size: 6px;}
+	font-size: 10px;}
 	#top{top: 15px;}
 	ul li ion-icon{font-size: 12px;
 		transform: translateX(-25px);}
@@ -673,16 +673,16 @@ z-index: -2;display: none;}
 	.date{font-size: 5px;}
 	.time{font-size: 4px;}
 	.time span:last-child{font-size: 4px;}
-	ul li{width: 55px;height: 15px;}
+	ul li{width: 58px;height: 15px;}
 	ul li ion-icon{font-size: 9px;
-		transform: translateX(-18px);}
+		transform: translateX(-22px);}
 		ul li:hover ion-icon {
 	font-size: 9px;
 	
 }
-		ul li .title{font-size: 4px;transform: translateX(2px);}
+		ul li .title{font-size: 9px;transform: translateX(6px);}
 		ul li:hover .title {
-	font-size: 4px;}
+	font-size: 9px;}
 	#menu a{width: 130px;height: 15px;
 		font-size: 14px;}
 	#menu{margin-top: -22px;}
