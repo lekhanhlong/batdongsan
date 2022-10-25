@@ -15,176 +15,115 @@ body{background-image: url("img/rong.jpg");
 ul{
 	position: relative;
 	display: flex;
-	gap: 25px;
+	gap: 15px;
 	justify-content: center;
 	align-items: center;
 	margin-top: 10px;
+	background:  rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(5px);
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 
 }
 ul li{
 	position: relative;
 	list-style: none;
-	width: 60px;
-	height: 60px;
-	background: #fff;
-	border-radius: 60px;
+	width: 170px;
+	height: 30px;
+	border-radius: 50px;
+background: rgba(255, 255, 255, 0.1);
+box-shadow:  9px 9px 18px rgba(0, 0, 0, 0.5),
+             -9px -9px 18px rgba(0, 0, 0, 0.7);
+	
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	
 	transition: 0.5s;
 }
 ul li:hover{
-	width: 280px;
-	box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+	border-radius: 50px;
+background:  linear-gradient(45deg,var(--i),var(--j));
+box-shadow: inset 9px 9px 1px rgba(0, 0, 0, 0.5),
+            inset -5px -5px 1px rgba(0, 0, 0, 0.7);
+            
 }
-ul li:before{
-	content: '';
-	position: absolute;
-	inset: 0;
-	border-radius: 60px;
-	background: linear-gradient(45deg,var(--i),var(--j));
-	opacity: 0;
-	transition: 0.5s;
-}
-ul li:hover:before{
-	opacity: 1;
-}
-ul li:after{
-	content: '';
-	position: absolute;
-	top: 10px;
-	width: 100%;
-	height: 100%;
-	border-radius: 60px;
-	background: linear-gradient(45deg,var(--i),var(--j));
-	
-	transition: 0.5s;
-	z-index: -1;
-	filter: blur(15px);
-	opacity: 1;
 
-}
-ul li:hover:after{
-	opacity: 0.5;
-}
+
 ul li ion-icon{
-	color: #777;
-	font-size: 25px;
-	transition: 0.5s;
-	transition-delay: 0.25s;
-}
-ul li:hover ion-icon{
-	transform: scale(0);
 	color: #fff;
-	transition-delay: 0;
-}
-ul li span{position: absolute;}
-ul li .title{
-	color: #ff512f;
-	font-size: 30px;
-	transform: scale(0);
+	font-size: 18px;
 	transition: 0.5s;
 	transition-delay: 0s;
+	transform: translateX(-60px);
 }
-ul li:hover .title{
-	transform: scale(1);
-	transition-delay: 0.25s;
+ul li:hover ion-icon {
+	font-size: 14px;
+	
 }
-ul li a{text-decoration: none;
-color: #ff512f}
-/*li #tha{position: relative;display: inline-block;}
-#tha1{position: absolute;
-top: 60px;display: none;z-index: 50;padding: 10px;}
-#tha1 a{background: linear-gradient(45deg,var(--i),var(--j));
-width: 250px;height: 60px;justify-content: center;
-align-items: center;
-display: flex;
-font-size: 20px;
-border-radius: 60px;
-margin: 10px;
-}
-#tha1:hover a{background: linear-gradient(65deg,#ff9966,#ff5e62);
-box-shadow: 0 0 10px #ff9966,
-			0 0 30px #ff9966,
-			0 0 50px #ff9966,
-			0 0 70px #ff9966;
-			font-size: 25px;
 
-}	
-#tha:hover #tha1{display:block;}*/
+ul li span{position: absolute;}
+ul li .title{
+	color: #fff;
+	font-size: 15px;
+	transform: scale(1);
+	transition: 0.5s;
+	transition-delay: 0s;
+	transform: translateX(20px);
+}
+ul li:hover .title {
+	font-size: 10px;
+	
+}
+
+ul li a{text-decoration: none;
+color: #fff}
 li #tha{position: relative;display: inline-block;}
 #tha1{position: absolute;
-top: 60px;display: none;z-index: 50;padding: 10px;}
-#tha11{background: linear-gradient(45deg,var(--i),var(--j));
-width: 250px;height: 60px;justify-content: center;
+top: 40px;display: none;z-index: 50;padding: 10px;}
+#menu{display: flex;
+justify-content: center;
 align-items: center;
-display: flex;
-font-size: 12px;
-border-radius: 60px;
-margin: 10px;}
-#tha12{background: linear-gradient(45deg,var(--i),var(--j));
-width: 250px;height: 60px;justify-content: center;
-align-items: center;
-display: flex;
-font-size: 12px;
-border-radius: 60px;
-margin: 10px;}
-#tha1:hover #tha11{
-	background: linear-gradient(65deg,#ff9966,#ff5e62);
-box-shadow: 0 0 10px #ff9966,
-			0 0 30px #ff9966,
-			0 0 50px #ff9966,
-			0 0 70px #ff9966;
-			font-size: 25px;}
-#tha11 #tp{color: #ff512f;font-size: 25px;}
-#tha12 #t{color: #ff512f;font-size: 25px;}
-#tha1:hover #tha12{
-	background: linear-gradient(45deg,#ff9966,#ff5e62);
-box-shadow: 0 0 10px #ff9966,
-			0 0 30px #ff9966,
-			0 0 50px #ff9966,
-			0 0 70px #ff9966;
-			font-size: 25px;}
-#tha:hover #tha1{display:block;}
-
-#menu{position: absolute;display:none;z-index: 50;
-top: 5%;left: 90%;}
-#menu a{background: linear-gradient(45deg,var(--i),var(--j));
-width: 170px;height: 35px;justify-content: center;
-align-items: center;
-display: flex;
-font-size: 15px;
-border-radius: 60px;
-margin: 10px;}
-#menu:hover a{
-background: linear-gradient(45deg,#ffa9c6,#f434e2);
-box-shadow: 0 0 10px #ffa9c6,
-			0 0 30px #ffa9c6,
-			0 0 50px #ffa9c6,
-			0 0 70px #ffa9c6;
-			font-size: 16px;}
-#tha #tha1 #tha11:hover #menu{display: block;}
-#menu1{position: absolute;display:none;z-index: 50;
-	top:50% ;left: -56%;
+flex-flow: column wrap;
+margin-top: -15px;}
+#menu a{
+	border-radius: 50px;
+background: rgba(255, 255, 255, 0.3);
+box-shadow:  9px 9px 18px rgba(0, 0, 0, 0.5),
+             -9px -9px 18px rgba(0, 0, 0, 0.7);
+             width: 165px;
+             height: 25px;
+             margin-top: 5px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             font-size: 18px;
 }
-#menu1 a{background: linear-gradient(45deg,var(--i),var(--j));
-width: 170px;height: 35px;justify-content: center;
-align-items: center;
-display: flex;
-font-size: 15px;
-border-radius: 60px;
-margin: 10px;}
-#menu1:hover a{
-background: linear-gradient(45deg,#80ff72,#7ee8fa);
-box-shadow: 0 0 10px #80ff72,
-			0 0 30px #80ff72,
-			0 0 50px #80ff72,
-			0 0 70px #80ff72;
-			font-size: 16px;}
-#tha #tha1 #tha12:hover #menu1{display: block;}
 
+
+li #tha2{position: relative;display: inline-block;}
+#tha22{position: absolute;
+top: 40px;display: none;z-index: 50;padding: 10px;}
+#menu2{display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: column wrap;
+margin-top: -15px;}
+#menu2 a{
+	border-radius: 50px;
+background: rgba(255, 255, 255, 0.3);
+box-shadow:  9px 9px 18px rgba(0, 0, 0, 0.5),
+             -9px -9px 18px rgba(0, 0, 0, 0.7);
+             width: 160px;
+             height: 25px;
+             margin-top: 5px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             font-size: 16px;
+}
 
 
 
@@ -516,7 +455,7 @@ z-index: -2;display: none;}
 	border-radius: 3px;
 }
 .dongho{
-	position: fixed;top: 20px;right: 180px;
+	position: fixed;top: 50px;right: 180px;
 	
 }
 
@@ -562,6 +501,9 @@ z-index: -2;display: none;}
 	#phai{height:  100%;}
 	#phai img{height:  14.2%;object-fit: cover;}
 	@keyframes phai{100%{right: -45px;}}
+	ul li{width: 140px;}
+	ul li ion-icon{transform: translateX(-50px);}
+	ul li .title{font-size: 11px;}
 }
 
 
@@ -584,20 +526,27 @@ z-index: -2;display: none;}
 	body{background-image: none;
 	background:#0c192c ;}
 	.lienhe{top: 1050px;}
-	#trai{height: 1400px;}
-	#trai img{width: 200px;height: 200px;object-fit: cover;}
-	@keyframes phai{100%{right: 65px}}
-	#phai{height: 1400px;}
-	#phai img{width: 200px;height: 200px;object-fit: cover;}
+	#trai{display: none;}
+	
+	#phai{display: none;}
+	
 	h1.gioithieu1{font-size: 18px;}
 	.gioithieu1 img{width: 30px;height: 30px;}
 	#dn{font-size: 20px;width: 33%;}
 	.qc a{width: 28%;}
-	.dongho{top: 181px;right: 235px;}
+	.dongho{top: 125px;right: 107px;}
 	.datetime{width: 180px;padding: 0;}
 	.date{font-size: 12px;}
 	.time{font-size: 12px;}
 	.nen{display: block;}
+	ul li{width: 120px;}
+	ul li ion-icon{transform: translateX(-30px);}
+	ul li .title{font-size: 9px;}
+	ul li:hover .title {
+	font-size: 9px;
+	
+}
+	#top{top: 10px;}
 	
 
 }
@@ -608,63 +557,33 @@ z-index: -2;display: none;}
 @media screen and (max-width: 850px){
 	body{background-image: none;
 	background:#0c192c ;}
-	h1.gioithieu1{font-size: 28px;}
-	#menu1{top: 88%;left: 18%;}
+	h1.gioithieu1{font-size: 14px;}
+	
 	.lienhe{top: 1060px;}
 	#trai{display: none;}
 	#phai{display: none;}
 	#dn{font-size: 20px;width: 38%;}
 	.qc a{width: 30%;}
 	img.qc2{height: 300px;object-fit: cover;}
-	.dongho{top: 71px;right: 64px;}
+	.dongho{top: 151px;right: 64px;}
 	.datetime{width: 180px;padding: 0;}
 	.date{font-size: 12px;}
 	.time{font-size: 12px;}
 	.nen{display: block;}
+	ul li{width: 80px;height: 20px;}
+	ul li .title{font-size: 7px;transform: translateX(10px);}
+	ul li:hover .title {
+	font-size: 7px;}
+	#top{top: 15px;}
+	
+
 }
 /* width lớn thứ 2*/
 @media screen and (max-width: 570px){
 	body{background-image: none;
 	background:#0c192c ;}
 
-	ul li{
-		width: 50px;
-		height: 50px;
-		border-radius: 50px;
-	}
-	ul li:hover{width: 110px;}
-	ul li .title{font-size: 11px;}
-	#tha1{top: 50px}
-	#tha1:hover #tha11{font-size: 15px;}
-	#tha11{
-		margin-top: -15px;
-    margin-left: 15px;
-    width: 100px;
-    height: 30px;
-	}
-	#tha11 #tp{
-		font-size: 15px;
-	}
-	#tha1:hover #tha12{font-size: 15px;}
-	#tha12{
-		margin-top: -5px;
-    margin-left: 15px;
-    width: 100px;
-    height: 30px;
-	}
-	#tha12 #t{
-		font-size: 15px;
-	}
-	#menu{top: -7%;left: 86%;}
-	#menu a{
-		width: 100px;height: 20px;font-size: 10px;margin: 5px;
-	}
-	#menu:hover a{font-size: 10px;}
-	#menu1{top: 83%;left: 15%;}
-	#menu1 a{
-		width: 100px;height: 20px;font-size: 10px;margin: 5px;
-	}
-	#menu1:hover a{font-size: 10px;}
+	
 	/*gioithieu*/
 	h1.gioithieu1{font-size: 12px;}
 	.gioithieu1 img{width: 20px;height: 20px;}
@@ -678,7 +597,28 @@ z-index: -2;display: none;}
 	.qc a{width: 43%;}
 	img.qc2{height: 200px;object-fit: cover;}
 	.nen{display: block;}
+	ul{gap: 5px}
+	ul li{width: 75px;height: 20px;}
+	ul li .title{font-size: 6px;transform: translateX(7px);}
+	ul li:hover .title {
+	font-size: 6px;}
+	#top{top: 15px;}
+	ul li ion-icon{font-size: 12px;
+		transform: translateX(-25px);}
+		ul li:hover ion-icon {
+	font-size: 12px;
 	
+}
+	.dongho{top: 94px;right: 30px;}
+	.datetime{width: 135px;}
+	.date{font-size: 10px;}
+	.time{font-size: 10px;}	
+	#menu a{width: 130px;height: 15px;
+		font-size: 14px;}
+	#menu{margin-top: -22px;}
+	#menu2 a{width: 150px;height: 15px;
+		font-size: 14px;}
+	#menu2{margin-top: -22px;}
 	
 	
 }
@@ -688,45 +628,7 @@ z-index: -2;display: none;}
 	body{background-image: none;
 	background:#0c192c ;}
 
-	ul li{
-		width: 40px;
-		height: 40px;
-		border-radius: 50px;
-	}
 	
-	ul li:hover{width: 110px;}
-	ul li .title{font-size: 11px;}
-	#tha1{top: 50px}
-	#tha1:hover #tha11{font-size: 15px;}
-	#tha11{
-		margin-top: -15px;
-    margin-left: 15px;
-    width: 100px;
-    height: 30px;
-	}
-	#tha11 #tp{
-		font-size: 15px;
-	}
-	#tha1:hover #tha12{font-size: 15px;}
-	#tha12{
-		margin-top: -5px;
-    margin-left: 15px;
-    width: 100px;
-    height: 30px;
-	}
-	#tha12 #t{
-		font-size: 15px;
-	}
-	#menu{top: -7%;left: 86%;}
-	#menu a{
-		width: 100px;height: 20px;font-size: 10px;margin: 5px;
-	}
-	#menu:hover a{font-size: 10px;}
-	#menu1{top: 83%;left: 15%;}
-	#menu1 a{
-		width: 100px;height: 20px;font-size: 10px;margin: 5px;
-	}
-	#menu1:hover a{font-size: 10px;}
 	/*gioithieu*/
 	h1.gioithieu1{font-size: 12px;}
 	.gioithieu1 img{width: 20px;height: 20px;}
@@ -739,10 +641,12 @@ z-index: -2;display: none;}
 	.qc{margin-left: 0;width: 100%;}
 	.qc a{width: 43%;}
 	img.qc2{height: 200px;object-fit: cover;}
-	.dongho{top: 61px;right: 4px;}
+	.dongho{top: 91px;right: 4px;}
 	.datetime{width: 120px;padding: 0;}
-	.date{font-size: 6px;}
-	.time{font-size: 6px;}
+	.date{font-size: 8px;}
+	.time{font-size: 7px;}
+	#tha1{top: 30px}
+	#tha22{top: 30px}
 	
 	
 }
@@ -751,48 +655,10 @@ z-index: -2;display: none;}
 	body{background-image: none;
 	background:#0c192c ;}
 
-	ul li{
-		width: 40px;
-		height: 40px;
-		border-radius: 50px;
-	}
 	
-	ul li:hover{width: 110px;}
-	ul li .title{font-size: 10px;}
-	#tha1{top: 50px}
-	#tha1:hover #tha11{font-size: 15px;}
-	#tha11{
-		margin-top: -15px;
-    margin-left: 15px;
-    width: 100px;
-    height: 30px;
-	}
-	#tha11 #tp{
-		font-size: 15px;
-	}
-	#tha1:hover #tha12{font-size: 15px;}
-	#tha12{
-		margin-top: -5px;
-    margin-left: 15px;
-    width: 100px;
-    height: 30px;
-	}
-	#tha12 #t{
-		font-size: 15px;
-	}
-	#menu{top: -7%;left: 86%;}
-	#menu a{
-		width: 100px;height: 20px;font-size: 10px;margin: 5px;
-	}
-	#menu:hover a{font-size: 10px;}
-	#menu1{top: 83%;left: 15%;}
-	#menu1 a{
-		width: 100px;height: 20px;font-size: 10px;margin: 5px;
-	}
-	#menu1:hover a{font-size: 10px;}
 	/*gioithieu*/
-	h1.gioithieu1{font-size: 12px;}
-	.gioithieu1 img{width: 20px;height: 20px;}
+	h1.gioithieu1{font-size: 7px;}
+	.gioithieu1 img{width: 10px;height: 10px;}
 	.lienhe{top: 725px;right: 30px;height: 40px;width: 130px;}
 	.lienhe1{font-size: 12px;margin-top: 5px;}
 	#trai{display: none;}
@@ -802,20 +668,33 @@ z-index: -2;display: none;}
 	.qc{margin-left: 0;width: 100%;}
 	.qc a{width: 43%;}
 	img.qc2{height: 200px;object-fit: cover;}
-	.dongho{top: 61px;right: 4px;}
-	.datetime{width: 120px;padding: 0;}
-	.date{font-size: 6px;}
-	.time{font-size: 6px;}
+	.dongho{top: 71px;right: 4px;}
+	.datetime{width: 90px;padding: 0;}
+	.date{font-size: 5px;}
+	.time{font-size: 4px;}
+	.time span:last-child{font-size: 4px;}
+	ul li{width: 55px;height: 15px;}
+	ul li ion-icon{font-size: 9px;
+		transform: translateX(-18px);}
+		ul li:hover ion-icon {
+	font-size: 9px;
+	
+}
+		ul li .title{font-size: 4px;transform: translateX(2px);}
+		ul li:hover .title {
+	font-size: 4px;}
+	#menu a{width: 130px;height: 15px;
+		font-size: 14px;}
+	#menu{margin-top: -22px;}
+	#menu2 a{width: 150px;height: 15px;
+		font-size: 14px;}
+	#menu2{margin-top: -22px;}
 	
 	
 }
 /* tiếp theo*/
 @media screen and (max-width: 300px){
-	ul li{
-		width: 30px;
-		height: 30px;
-		border-radius: 30px;}
-		ul li ion-icon{font-size: 18px;}
+	
 		h1.gioithieu1{font-size: 10px;}
 		.lienhe{top: 573px;}
 		#dn{font-size: 12px;width: 70%;}

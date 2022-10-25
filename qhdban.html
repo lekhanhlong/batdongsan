@@ -23,6 +23,9 @@
 	 <link rel="dns-prefetch" href="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
 	<link rel="preload" href="vanilla-tilt.js" as="script">
 	<link rel="preload" href="long.css" as="style">
+	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+	<link rel="dns-prefetch" href="https://code.jquery.com/jquery-3.6.1.js">
+
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11009386451"></script>
 <script>
@@ -104,17 +107,34 @@
 
 
 	
+		<script>
+	$(document).ready(function(){
+		$('#tha').click(function(){
+			$('#tha1').slideToggle();
+		});
+	})
+</script>
+<script>
+	$(document).ready(function(){
+		$('#tha2').click(function(){
+			$('#tha22').slideToggle();
+		});
+	})
+</script>
+
+	
 	<div id="top">
 	<ul>
-		<li style="--i:#a955ff;--j:#ea51ff;">
+		<li  style="--i:#a955ff;--j:#ea51ff;">
 			<span class="icon"><ion-icon name="home-outline"></ion-icon></span>
 			<span class="title"><a href="index.html"> Trang Chủ</a></span>
 		</li>
-		<li style="--i:#56ccf2;--j:#2f80ed;" id="tha">
+		
+
+		<li id="tha" style="--i:#56cff2;--j:#2f20ed;">
 			<span class="icon"><ion-icon name="map-outline"></ion-icon></span>
-			<span class="title">Khu Vực Đất</span>
+			<span class="title">Đà Nẵng</span>
 			<div id="tha1">
-			<div id="tha11"><p id="tp">Đà Nẵng</p>
 				<div id="menu">
 				<a href="fpt.html"> Khu Đô Thị FPT</a>
 				<a href="nguhanhson.html">Q. Ngũ Hành Sơn</a>
@@ -123,17 +143,24 @@
 				<a href="hoatien.html"> Hòa Tiến,Hòa Vang</a>
 				<a href="hoachau.html"> Hòa Châu,Hòa Vang</a>
 				<a href="hoaphu.html"> Hòa Phú,Hòa Vang</a>
-			</div>
 		</div>
-			<div id="tha12"><p id="t">Quảng Nam</p>
-			<div id="menu1">
+	</div>
+		</li>
+
+		<li id="tha2" style="--i:#ffa9c6;--j:#ea51fa;">
+			<span class="icon"><ion-icon name="map-outline"></ion-icon></span>
+			<span class="title">Quảng Nam</span>
+			<div id="tha22">
+				<div id="menu2">
 				<a href="dienduong.html"> Điện Dương, Điện Bàn</a>
 				<a href="dientien.html"> Điện Tiến, Điện Bàn</a>
 				<a href="daihiep.html"> Đại Hiệp, Đại Lộc</a>
-			</div>
-			</div>
-			</div>
+		</div>
+	</div>
 		</li>
+		
+		
+
 		<li style="--i:#ff9966;--j:#ff5e62;">
 			<span class="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
 			<span class="title"><a href="thitruong.html">Tin Tức Thị Trường</a></span>
