@@ -267,14 +267,14 @@ margin-left: 40px;
 .container .card .content{
 	padding: 20px;
 	text-align: center;
-	transform: translateY(100px);
-	opacity: 0;	
+	transform: translateY(0px);
+	opacity: 1;	
 	transition: 0.5s;
 }
-.container .card:hover .content{
+/*.container .card:hover .content{
 	transform: translateY(0px);
 	opacity: 1;
-}
+}*/
 .container .card .content h2{
 	position: absolute;
 	top: -10px;
